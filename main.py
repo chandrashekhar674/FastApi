@@ -15,3 +15,9 @@ def users():
     return {
         "users":["mohit","Rohit","Amit"]
     }
+
+@app.get("/home")
+def users():
+    return {
+        "message":"This is Home page"
+    }
